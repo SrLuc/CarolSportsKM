@@ -17,3 +17,10 @@
   width: 150px;
   margin: 0 auto;
 }
+
+.b {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 40px;
+  color: rgb(138, 81, 81);
+}
