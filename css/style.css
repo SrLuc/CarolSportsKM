@@ -1387,13 +1387,24 @@ a:hover {
 }
 
 .unslate_co--section {
-  padding: 7.5rem 0;
+  max-width: 80%; /* Define a largura máxima para a seção */
+  margin: 0 auto; /* Centraliza o contêiner */
+  padding: 20px; /* Adiciona espaçamento interno */
 }
 @media (max-width: 767.98px) {
   .unslate_co--section {
     padding: 2rem 0;
   }
 }
+
+.unslate_co--section img {
+  width: 100%; /* Assegura que as imagens ocupem no máximo a largura do contêiner */
+  max-width: 700px; /* Define a largura máxima das imagens */
+  height: auto; /* Mantém a proporção das imagens */
+  display: block; /* Remove espaço extra ao redor das imagens */
+  margin: auto; /* Centraliza as imagens */
+}
+
 .unslate_co--section a:hover {
   color: #000;
 }
@@ -1941,7 +1952,9 @@ figure.dotted-bg:before {
   padding: 10px 10px 10px 10px;
   right: -10px;
   border: 2px solid transparent;
-  background-color: #efefef;
+  background-color: #7098eb;
+  border-radius: 30px;
+  color: white;
   border-radius: 30px;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
@@ -1982,7 +1995,7 @@ figure.dotted-bg:before {
 .unslate_co--close-portfolio:hover,
 .unslate_co--close-portfolio:focus {
   border-color: #dddddd;
-  background-color: #e2e2e2;
+  background-color: #050b64;
 }
 .unslate_co--close-portfolio:hover .close-portfolio-label,
 .unslate_co--close-portfolio:focus .close-portfolio-label {
