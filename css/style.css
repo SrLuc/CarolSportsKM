@@ -1387,7 +1387,7 @@ a:hover {
 }
 
 .unslate_co--section {
-  max-width: 80%; /* Define a largura máxima para a seção */
+  max-width: 100%; /* Define a largura máxima para a seção */
   margin: 0 auto; /* Centraliza o contêiner */
   padding: 20px; /* Adiciona espaçamento interno */
 }
