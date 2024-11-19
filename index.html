@@ -1,661 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="author" content="Untree.co" />
-    <link rel="shortcut icon" href="./assets/logos/logo.png" />
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="author" content="Untree.co" />
+  <link rel="shortcut icon" href="./assets/logos/logo.png" />
 
-    <link rel="stylesheet" href="css/vendor/icomoon/style.css" />
-    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/vendor/animate.min.css" />
-    <link rel="stylesheet" href="css/vendor/aos.css" />
-    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
 
-    <!-- Theme Style -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/index.css" />
-  </head>
-  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
-    <nav class="unslate_co--site-mobile-menu">
-      <div class="close-wrap d-flex">
-        <a href="#" class="d-flex ml-auto js-menu-toggle">
-          <span class="close-label">Close</span>
-          <div class="close-times">
-            <span class="bar1"></span>
-            <span class="bar2"></span>
-          </div>
-        </a>
-      </div>
-      <div class="site-mobile-inner"></div>
-    </nav>
+  <link rel="stylesheet" href="css/vendor/icomoon/style.css" />
+  <link rel="stylesheet" href="css/vendor/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/vendor/animate.min.css" />
+  <link rel="stylesheet" href="css/vendor/aos.css" />
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css" />
 
-    <div class="unslate_co--site-wrap">
-      <div class="unslate_co--site-inner">
-        <nav class="unslate_co--site-nav site-nav-target">
-          <div class="container">
-            <div
-              class="row align-items-center justify-content-between text-left"
-            >
-              <div class="col-md-5 text-right">
-                <ul
-                  class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block"
-                >
-                  <li class="has-children">
-                    <a href="#home-section" class="nav-link">Início</a>
-                  </li>
-                  <li>
-                    <a href="#portfolio-section" class="nav-link">Portfolio</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="site-logo pos-absolute">
-                <a href="index.html" class="unslate_co--site-logo">
-                  <img
-                    src="./assets/logos/carolesportes.png"
-                    alt="logo"
-                    class="logo"
-                /></a>
-              </div>
-              <div class="col-md-5 text-right text-lg-left">
-                <ul
-                  class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block"
-                >
-                  <li>
-                    <a href="#about-section" class="nav-link">Sobre Nós</a>
-                  </li>
-                  <li>
-                    <a href="#stats-section" class="nav-link">Estatísticas</a>
-                  </li>
-                </ul>
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/index.css" />
+</head>
 
-                <ul
-                  class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none"
-                >
-                  <li><a href="#" class="js-menu-toggle">Menu</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <!-- END nav -->
-        <div class="cover-v1 jarallax bg-light" id="home-section">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-8 mx-auto text-center">
-                <h1 class="heading gsap-reveal-hero">Carol Esportes</h1>
-                <h2 class="subheading gsap-reveal-hero">
-                  Gráfica especializada na confecção de produtos esportivos de
-                  alta qualidade.
-                  <br />
-                  Descubra como podemos ajudar seu time a brilhar dentro e fora
-                  das quadras!
-                </h2>
-              </div>
-            </div>
-          </div>
+<body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+  <nav class="unslate_co--site-mobile-menu">
+    <div class="close-wrap d-flex">
+      <a href="#" class="d-flex ml-auto js-menu-toggle">
+        <span class="close-label">Close</span>
+        <div class="close-times">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
         </div>
-        <!-- END .cover-v1 -->
+      </a>
+    </div>
+    <div class="site-mobile-inner"></div>
+  </nav>
 
-        <div class="unslate_co--section" id="portfolio-section">
-          <div class="container">
-            <div
-              class="section-heading-wrap text-center mb-5"
-              data-aos="fade-up"
-            >
-              <h2 class="heading-h2 text-center divider">Portfolio</h2>
-            </div>
-
-            <div class="relative">
-              <div class="loader-portfolio-wrap">
-                <div class="loader-portfolio"></div>
-              </div>
-            </div>
-            <div id="portfolio-single-holder"></div>
-
-            <div class="portfolio-wrapper">
-              <div id="posts" class="row gutter-isotope-item">
-                <!--Medalhas-->
-                <div
-                  class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
-                >
-                  <a
-                    href="./pages/medals.html"
-                    class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                    data-id="1"
-                  >
-                    <div class="overlay">
-                      <span class="wrap-icon icon-link2"></span>
-                      <div class="portfolio-item-content">
-                        <h3>Medalhas</h3>
-                        <p>para competições regionais e nacionais</p>
-                      </div>
-                    </div>
-                    <img
-                      src="/assets/img/medalhas/medalhas (4).jpg"
-                      class="lazyload img-fluid"
-                      alt="Images"
-                    />
-                  </a>
-                </div>
-                <!--Uniformes-->
-                <div
-                  class="item branding packaging illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
-                >
-                  <a
-                    href="/pages/patterns.html"
-                    class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img"
-                    data-id="3"
-                  >
-                    <div class="overlay">
-                      <span class="wrap-icon icon-link2"></span>
-                      <div class="portfolio-item-content">
-                        <h3>Uniformes</h3>
-                        <p>para times de futebol, futsal e vôlei</p>
-                      </div>
-                    </div>
-                    <img
-                      src="./assets/img/autografadas/autografadas (6).webp"
-                      class="lazyload img-fluid"
-                      alt="Images"
-                    />
-                  </a>
-                </div>
-                <!--Bolas-->
-                <div
-                  class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
-                >
-                  <a
-                    href="/pages/balls.html"
-                    class="portfolio-item isotope-item gsap-reveal-img ajax-load-page"
-                    data-id="4"
-                  >
-                    <div class="overlay">
-                      <span class="wrap-icon icon-link2"></span>
-                      <div class="portfolio-item-content">
-                        <h3>Bolas</h3>
-                        <p>
-                          futsal, futevôlei e outros esportes com padrão
-                          profissional
-                        </p>
-                      </div>
-                    </div>
-                    <img
-                      src="/assets/img/bolas/bola (2).webp"
-                      class="lazyload img-fluid"
-                      alt="Images"
-                    />
-                  </a>
-                </div>
-                <!--Bolsas-->
-                <div
-                  class="item illustration packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
-                >
-                  <a
-                    href="./pages/bags.html"
-                    class="portfolio-item isotope-item gsap-reveal-img ajax-load-page"
-                    data-fancybox="gallery"
-                    data-caption="InstaBugs"
-                  >
-                    <div class="overlay">
-                      <span class="wrap-icon icon-photo2"></span>
-                      <div class="portfolio-item-content">
-                        <h3>Bolsas</h3>
-                        <p>Bolsas e Mochilas</p>
-                      </div>
-                    </div>
-                    <img
-                      src="/assets/img/bolsas/bolsa (13).webp"
-                      class="img-fluid"
-                      alt="Images"
-                    />
-                  </a>
-                </div>
-                <!--Trofeus-->
-                <div
-                  class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
-                >
-                  <a
-                    href="/pages/throphys.html"
-                    class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img"
-                    data-id="2"
-                  >
-                    <div class="overlay">
-                      <span class="wrap-icon icon-link2"></span>
-                      <div class="portfolio-item-content">
-                        <h3>Troféus</h3>
-                        <p>Troféus e premiações personalizadas</p>
-                      </div>
-                    </div>
-                    <img
-                      src="./assets/img/trofeus/trofeu (15).webp"
-                      class="lazyload img-fluid"
-                      alt="Images"
-                    />
-                  </a>
-                </div>
-                <!--Tenis-->
-                <div
-                  class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
-                >
-                  <a
-                    href="/pages/tenis.html"
-                    class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img"
-                    data-id="2"
-                  >
-                    <div class="overlay">
-                      <span class="wrap-icon icon-link2"></span>
-                      <div class="portfolio-item-content">
-                        <h3>Acessórios para Tênis</h3>
-                        <p>Acessórios para tênis, como bolas e raquetes</p>
-                      </div>
-                    </div>
-                    <img
-                      src="/assets/img/tenis/tenis (1).webp"
-                      class="lazyload img-fluid"
-                      alt="Images"
-                    />
-                  </a>
-                </div>
-                <!--Esportivos-->
-                <div
-                  class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
-                >
-                  <a
-                    href="./pages/acessorios.html"
-                    class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                    data-id="1"
-                  >
-                    <div class="overlay">
-                      <span class="wrap-icon icon-link2"></span>
-                      <div class="portfolio-item-content">
-                        <h3>Acessórios Esportivos</h3>
-                        <p></p>
-                      </div>
-                    </div>
-                    <img
-                      src="/assets/img/placas/acessorio (9).webp"
-                      class="lazyload img-fluid"
-                      alt="Images"
-                    />
-                  </a>
-                </div>
-                <!--Chuteiras-->
-                <div
-                  class="item branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
-                >
-                  <a
-                    href="/pages/chuteiras.html"
-                    class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                    data-id="5"
-                  >
-                    <div class="overlay">
-                      <span class="wrap-icon icon-link2"></span>
-                      <div class="portfolio-item-content">
-                        <h3>Chuteiras</h3>
-                        <p>
-                          Chuteiras de qualidade para futebol e futsal, com
-                          design moderno e conforto
-                        </p>
-                      </div>
-                    </div>
-                    <img
-                      src="/assets/img/chuteiras/chuteira (7).webp"
-                      class="lazyload img-fluid"
-                      alt="Images"
-                    />
-                  </a>
-                </div>
-                <!--Luta-->
-                <div
-                  class="item branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
-                >
-                  <a
-                    href="/pages/luta.html"
-                    class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                    data-id="5"
-                  >
-                    <div class="overlay">
-                      <span class="wrap-icon icon-link2"></span>
-                      <div class="portfolio-item-content">
-                        <h3>Acessórios para Artes Marciais</h3>
-                        <p>
-                          Acessórios para artes marciais, como luvas e faixas e
-                          Kimonos
-                        </p>
-                      </div>
-                    </div>
-                    <img
-                      src="/assets/img/luta/luta (1).webp"
-                      class="lazyload img-fluid"
-                      alt="Images"
-                    />
-                  </a>
-                </div>
-                <!--Futebol-->
-                <div
-                  class="item branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
-                >
-                  <a
-                    href="/pages/futebol.html"
-                    class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                    data-id="5"
-                  >
-                    <div class="overlay">
-                      <span class="wrap-icon icon-link2"></span>
-                      <div class="portfolio-item-content">
-                        <h3>Acessórios para Futebol</h3>
-                        <p>Cartões, Apitos, Luvas, Bolsas e muito mais</p>
-                      </div>
-                    </div>
-                    <img
-                      src="/assets/img/futebol/futebol (1).webp"
-                      class="lazyload img-fluid"
-                      alt="Images"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="unslate_co--section" id="about-section">
-          <div class="container">
-            <div class="row mt-5 justify-content-between align-items-center">
-              <div
-                class="col-lg-5 pl-lg-5"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <h3 class="mb-4 heading-h3">Sobre Nós</h3>
-                <p>
-                  Na Carol Esportes, somos apaixonados pelo esporte e pela
-                  qualidade. Com anos de experiência no mercado, nossa missão é
-                  oferecer produtos que fazem a diferença, seja em competições
-                  ou em treinos.
-                </p>
-                <p class="mb-4">
-                  Investimos em tecnologia e materiais sustentáveis para
-                  garantir que cada item produzido seja um reflexo de excelência
-                  e inovação.
-                </p>
-
-                <ul class="list-unstyled list-check d-block">
-                  <li class="d-block">
-                    Produtos de primeira, com alta qualidade e durabilidade
-                  </li>
-                  <li class="d-block">
-                    Atendimento personalizado, focado em você e nas suas
-                    necessidades
-                  </li>
-                  <li class="d-block">
-                    Entrega rápida e garantida pra toda a região metropolitana
-                    do Recife
-                  </li>
-                  <li class="d-block">
-                    Todo nosso material é Produzido aqui mesmo!
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--Estatisticas-->
-        <div
-          class="unslate_co--section section-counter bg-light"
-          id="stats-section"
-        >
-          <div class="container">
-            <div
-              class="section-heading-wrap text-center mb-5"
-              data-aos="fade-up"
-            >
-              <h2 class="heading-h2 text-center divider">Estatísticas</h2>
-            </div>
-
-            <div class="row pt-5">
-              <div
-                class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3"
-                data-aos="fade-up"
-                data-aos-delay="0"
-              >
-                <div class="counter-v1 text-center">
-                  <span class="number-wrap">
-                    <span
-                      class="number number-counter"
-                      data-number="+750"
-                    ></span>
-                  </span>
-                  <span class="counter-label">+700 Clientes Atendidos</span>
-                </div>
-              </div>
-              <div
-                class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="counter-v1 text-center">
-                  <span class="number-wrap">
-                    <span class="number number-counter" data-number="100"
-                      >0</span
-                    >
-                  </span>
-                  <span class="counter-label"
-                    >100% de Satisfação dos Clientes</span
-                  >
-                </div>
-              </div>
-              <div
-                class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="counter-v1 text-center">
-                  <span class="number-wrap">
-                    <span class="number number-counter" data-number="10"
-                      >0</span
-                    >
-                  </span>
-                  <span class="counter-label">+10 anos de Mercado</span>
-                </div>
-              </div>
-              <div
-                class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div class="counter-v1 text-center">
-                  <span class="number-wrap">
-                    <span class="number number-counter" data-number="1032"
-                      >0</span
-                    >
-                  </span>
-                  <span class="counter-label">+10.000 Vendas Anualmente</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- END .counter -->
-
-        <div class="site-section unslate_co--section" id="services-section">
-          <div class="container">
-            <div
-              class="section-heading-wrap text-center mb-5"
-              data-aos="fade-up"
-            >
-              <h2 class="heading-h2 text-center divider">Serviços</h2>
-            </div>
-
-            <div class="row">
-              <div
-                class="col-md-6 mb-4"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="service d-flex h-100">
-                  <div class="service-number mr-4"><span>01</span></div>
-                  <div class="service-about">
-                    <h3>Fabricação de Medalhas</h3>
-                    <p>
-                      Trabalhamos com fundição de medalhas de metal pronta, com
-                      adesivos resinados também, para competições regionais e
-                      nacionais.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="col-md-6 mb-4"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="service d-flex h-100">
-                  <div class="service-number mr-4"><span>02</span></div>
-                  <div class="service-about">
-                    <h3>Fabricação de Troféus</h3>
-                    <p>
-                      Na Carol Esportes, fabricamos troféus que representam mais
-                      que vitórias, eles simbolizam esforço e dedicação. Com
-                      materiais de alta qualidade e um design personalizado para
-                      garantir que cada troféu seja digno do pódio.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="col-md-6 mb-4"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="service d-flex h-100">
-                  <div class="service-number mr-4"><span>03</span></div>
-                  <div class="service-about">
-                    <h3>Uniformes Personalizados com Estilo</h3>
-                    <p>
-                      Na Carol Esportes, entendemos que cada time é único, e o
-                      uniforme precisa refletir isso. Produzimos uniformes
-                      personalizados com qualidade e conforto, garantindo que
-                      seu time jogue com estilo e identidade. Seja para treino
-                      ou jogo, entregamos peças que fazem a diferença em campo.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="col-md-6 mb-4"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="service d-flex h-100">
-                  <div class="service-number mr-4"><span>04</span></div>
-                  <div class="service-about">
-                    <h3>Acessórios Esportivos para Artes Marciais</h3>
-                    <p>
-                      A Carol Esportes oferece uma linha completa de acessórios
-                      para artes marciais, como luvas, faixas e kimonos. Com
-                      materiais de alta qualidade e design moderno, nossos
-                      acessórios são ideais para treinos e competições.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="col-md-6 mb-4"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="service d-flex h-100">
-                  <div class="service-number mr-4"><span>05</span></div>
-                  <div class="service-about">
-                    <h3>Bolas Esportivas</h3>
-                    <p>
-                      Bolas de futebol, futsal, vôlei e outros esportes com
-                      qualidade profissional. Produzidas com materiais de alta
-                      qualidade e design moderno, nossas bolas são ideais para
-                      treinos e competições.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="col-md-6 mb-4"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="service d-flex h-100">
-                  <div class="service-number mr-4"><span>06</span></div>
-                  <div class="service-about">
-                    <h3>Acessórios para Tênis</h3>
-                    <p>
-                      A Carol Esportes oferece uma linha completa de acessórios
-                      para tênis, como bolas e raquetes.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <footer class="unslate_co--footer unslate_co--section">
+  <div class="unslate_co--site-wrap">
+    <div class="unslate_co--site-inner">
+      <nav class="unslate_co--site-nav site-nav-target">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-7">
-              <div class="footer-site-logo">
-                <a href="./index.html">Carol Esportes<span>.</span></a>
-              </div>
-
-              <ul class="list-unstyled social-icons light">
-                <li>
-                  <a href="#"><span class="icon-facebook"></span></a>
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li class="has-children">
+                  <a href="#home-section" class="nav-link">Início</a>
                 </li>
                 <li>
-                  <a
-                    target="_blank"
-                    href="https://www.instagram.com/carolesportes/"
-                    ><span class="icon-instagram"></span
-                  ></a>
+                  <a href="#portfolio-section" class="nav-link">Portfolio</a>
+                </li>
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo">
+                <img src="./assets/logos/carolesportes.png" alt="logo" class="logo" /></a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li>
+                  <a href="#about-section" class="nav-link">Sobre Nós</a>
+                </li>
+                <li>
+                  <a href="#stats-section" class="nav-link">Estatísticas</a>
                 </li>
               </ul>
 
-              <p class="site-copyright">
-                <small
-                  >Copyright &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  . All Rights Reserved. &mdash; Developed by InifityDraft
-                </small>
-              </p>
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+              </ul>
             </div>
           </div>
         </div>
-      </footer>
+      </nav>
+      <!-- END nav -->
+      <div class="cover-v1 jarallax bg-light" id="home-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-8 mx-auto text-center">
+              <h1 class="heading gsap-reveal-hero">Carol Esportes</h1>
+              <h2 class="subheading gsap-reveal-hero">
+                Gráfica especializada na confecção de produtos esportivos de
+                alta qualidade.
+                <br />
+                Descubra como podemos ajudar seu time a brilhar dentro e fora
+                das quadras!
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END .cover-v1 -->
+
+      <div class="unslate_co--section" id="portfolio-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5" data-aos="fade-up">
+            <h2 class="heading-h2 text-center divider">Portfolio</h2>
+          </div>
+
+          <div class="relative">
+            <div class="loader-portfolio-wrap">
+              <div class="loader-portfolio"></div>
+            </div>
+          </div>
+          <div id="portfolio-single-holder"></div>
+
+          <div class="portfolio-wrapper">
+            <div id="posts" class="row gutter-isotope-item">
+              <!--Medalhas-->
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="./pages/medals.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                  data-id="1">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Medalhas</h3>
+                      <p>para competições regionais e nacionais</p>
+                    </div>
+                  </div>
+                  <img src="/assets/img/medalhas/medalhas (4).jpg" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <!--Uniformes-->
+              <div class="item branding packaging illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="/pages/patterns.html"
+                  class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="3">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Uniformes</h3>
+                      <p>para times de futebol, futsal e vôlei</p>
+                    </div>
+                  </div>
+                  <img src="./assets/img/autografadas/autografadas (6).webp" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <!--Bolas-->
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="/pages/balls.html" class="portfolio-item isotope-item gsap-reveal-img ajax-load-page"
+                  data-id="4">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Bolas</h3>
+                      <p>
+                        futsal, futevôlei e outros esportes com padrão
+                        profissional
+                      </p>
+                    </div>
+                  </div>
+                  <img src="/assets/img/bolas/bola (2).webp" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <!--Bolsas-->
+              <div class="item illustration packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="./pages/bags.html" class="portfolio-item isotope-item gsap-reveal-img ajax-load-page"
+                  data-fancybox="gallery" data-caption="InstaBugs">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-photo2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Bolsas</h3>
+                      <p>Bolsas e Mochilas</p>
+                    </div>
+                  </div>
+                  <img src="/assets/img/bolsas/bolsa (13).webp" class="img-fluid" alt="Images" />
+                </a>
+              </div>
+              <!--Trofeus-->
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="/pages/throphys.html"
+                  class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="2">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Troféus</h3>
+                      <p>Troféus e premiações personalizadas</p>
+                    </div>
+                  </div>
+                  <img src="./assets/img/trofeus/trofeu (15).webp" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <!--Tenis-->
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="/pages/tenis.html"
+                  class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="2">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Acessórios para Tênis</h3>
+                      <p>Acessórios para tênis, como bolas e raquetes</p>
+                    </div>
+                  </div>
+                  <img src="/assets/img/tenis/tenis (1).webp" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <!--Esportivos-->
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="./pages/acessorios.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                  data-id="1">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Acessórios Esportivos</h3>
+                      <p></p>
+                    </div>
+                  </div>
+                  <img src="/assets/img/placas/acessorio (9).webp" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <!--Chuteiras-->
+              <div class="item branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="/pages/chuteiras.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                  data-id="5">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Chuteiras</h3>
+                      <p>
+                        Chuteiras de qualidade para futebol e futsal, com
+                        design moderno e conforto
+                      </p>
+                    </div>
+                  </div>
+                  <img src="/assets/img/chuteiras/chuteira (7).webp" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <!--Luta-->
+              <div class="item branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="/pages/luta.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                  data-id="5">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Acessórios para Artes Marciais</h3>
+                      <p>
+                        Acessórios para artes marciais, como luvas e faixas e
+                        Kimonos
+                      </p>
+                    </div>
+                  </div>
+                  <img src="/assets/img/luta/luta (1).webp" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <!--Futebol-->
+              <div class="item branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="/pages/futebol.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                  data-id="5">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Acessórios para Futebol</h3>
+                      <p>Cartões, Apitos, Luvas, Bolsas e muito mais</p>
+                    </div>
+                  </div>
+                  <img src="/assets/img/futebol/futebol (1).webp" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section" id="about-section">
+        <div class="container">
+          <div class="row mt-5 justify-content-between align-items-center">
+            <div class="col-lg-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="mb-4 heading-h3">Sobre Nós</h3>
+              <p>
+                Na Carol Esportes, somos apaixonados pelo esporte e pela
+                qualidade. Com anos de experiência no mercado, nossa missão é
+                oferecer produtos que fazem a diferença, seja em competições
+                ou em treinos.
+              </p>
+              <p class="mb-4">
+                Investimos em tecnologia e materiais sustentáveis para
+                garantir que cada item produzido seja um reflexo de excelência
+                e inovação.
+              </p>
+
+              <ul class="list-unstyled list-check d-block">
+                <li class="d-block">
+                  Produtos de primeira, com alta qualidade e durabilidade
+                </li>
+                <li class="d-block">
+                  Atendimento personalizado, focado em você e nas suas
+                  necessidades
+                </li>
+                <li class="d-block">
+                  Entrega rápida e garantida pra toda a região metropolitana
+                  do Recife
+                </li>
+                <li class="d-block">
+                  Todo nosso material é Produzido aqui mesmo!
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Estatisticas-->
+      <div class="unslate_co--section section-counter bg-light" id="stats-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5" data-aos="fade-up">
+            <h2 class="heading-h2 text-center divider">Estatísticas</h2>
+          </div>
+
+          <div class="row pt-5">
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="+750"></span>
+                </span>
+                <span class="counter-label">+700 Clientes Atendidos</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="100">0</span>
+                </span>
+                <span class="counter-label">100% de Satisfação dos Clientes</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="10">0</span>
+                </span>
+                <span class="counter-label">+10 anos de Mercado</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="1032">0</span>
+                </span>
+                <span class="counter-label">+10.000 Vendas Anualmente</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END .counter -->
+
+      <div class="site-section unslate_co--section" id="services-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5" data-aos="fade-up">
+            <h2 class="heading-h2 text-center divider">Serviços</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="service d-flex h-100">
+                <div class="service-number mr-4"><span>01</span></div>
+                <div class="service-about">
+                  <h3>Fabricação de Medalhas</h3>
+                  <p>
+                    Trabalhamos com fundição de medalhas de metal pronta, com
+                    adesivos resinados também, para competições regionais e
+                    nacionais.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="service d-flex h-100">
+                <div class="service-number mr-4"><span>02</span></div>
+                <div class="service-about">
+                  <h3>Fabricação de Troféus</h3>
+                  <p>
+                    Na Carol Esportes, fabricamos troféus que representam mais
+                    que vitórias, eles simbolizam esforço e dedicação. Com
+                    materiais de alta qualidade e um design personalizado para
+                    garantir que cada troféu seja digno do pódio.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="service d-flex h-100">
+                <div class="service-number mr-4"><span>03</span></div>
+                <div class="service-about">
+                  <h3>Uniformes Personalizados com Estilo</h3>
+                  <p>
+                    Na Carol Esportes, entendemos que cada time é único, e o
+                    uniforme precisa refletir isso. Produzimos uniformes
+                    personalizados com qualidade e conforto, garantindo que
+                    seu time jogue com estilo e identidade. Seja para treino
+                    ou jogo, entregamos peças que fazem a diferença em campo.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="service d-flex h-100">
+                <div class="service-number mr-4"><span>04</span></div>
+                <div class="service-about">
+                  <h3>Acessórios Esportivos para Artes Marciais</h3>
+                  <p>
+                    A Carol Esportes oferece uma linha completa de acessórios
+                    para artes marciais, como luvas, faixas e kimonos. Com
+                    materiais de alta qualidade e design moderno, nossos
+                    acessórios são ideais para treinos e competições.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="service d-flex h-100">
+                <div class="service-number mr-4"><span>05</span></div>
+                <div class="service-about">
+                  <h3>Bolas Esportivas</h3>
+                  <p>
+                    Bolas de futebol, futsal, vôlei e outros esportes com
+                    qualidade profissional. Produzidas com materiais de alta
+                    qualidade e design moderno, nossas bolas são ideais para
+                    treinos e competições.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="service d-flex h-100">
+                <div class="service-number mr-4"><span>06</span></div>
+                <div class="service-about">
+                  <h3>Acessórios para Tênis</h3>
+                  <p>
+                    A Carol Esportes oferece uma linha completa de acessórios
+                    para tênis, como bolas e raquetes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- Loader -->
-    <div id="unslate_co--overlayer"></div>
-    <div class="site-loader-wrap">
-      <div class="site-loader"></div>
-    </div>
+    <footer class="unslate_co--footer unslate_co--section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <div class="footer-site-logo">
+              <a href="./index.html">Carol Esportes<span>.</span></a>
+            </div>
 
-    <script src="js/scripts-dist.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+            <ul class="list-unstyled social-icons light">
+              <li>
+                <a href="#"><span class="icon-facebook"></span></a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.instagram.com/carolesportes/"><span
+                    class="icon-instagram"></span></a>
+              </li>
+            </ul>
+
+            <p class="site-copyright">
+              <small>Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                . All Rights Reserved. &mdash;
+                Desenvolvido por
+                <a href="https://www.linkedin.com/in/georges-ballister-de-oliveira/">Georges Ballister</a>
+                e
+                <a href="https://www.linkedin.com/in/ruan-lucena-ramos-387623232/">Ruan Lucena</a>
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Loader -->
+  <div id="unslate_co--overlayer"></div>
+  <div class="site-loader-wrap">
+    <div class="site-loader"></div>
+  </div>
+
+  <script src="js/scripts-dist.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
